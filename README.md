@@ -2,6 +2,7 @@
 
 
 module "az-audio-spoke1-west-europe" {
+
   source  = "./avx-azure-spoke"
   region                = "Central US"
 
@@ -22,6 +23,7 @@ module "az-audio-spoke1-west-europe" {
 
   transit_gw           = "transit-gw" # optional
   security_domain      = "red"        # optional 
+  
 }
 
 
