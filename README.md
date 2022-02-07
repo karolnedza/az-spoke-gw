@@ -1,7 +1,7 @@
 # az-spoke-gw example 
 
 
-module "az-audio-spoke1-west-europe" {
+module "az-spoke1-west-europe" {
 
     source  = "./avx-azure-spoke"
   
